@@ -1,0 +1,9 @@
+def FirstFactorial(num)
+  
+  if(num == 0)
+    return num = 1;
+  else
+  	return num*FirstFactorial(num-1)
+  end
+          
+end
